@@ -21,5 +21,7 @@ namespace pipelines_dotnet_core
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
         //test automatic build
+        //build edit 2
+        //4
     }
 }
