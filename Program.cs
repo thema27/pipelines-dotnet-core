@@ -20,5 +20,6 @@ namespace pipelines_dotnet_core
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+        //test automatic build
     }
 }
